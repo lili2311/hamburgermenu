@@ -55,8 +55,8 @@ body {
       nav {
          display:-block;
          background:$base-color;
-         padding:$padding-value;
          min-height:$footer-header-height; 
+         padding: $padding-value;
          line-height:2em;
          ul {
            padding:0;
@@ -64,6 +64,7 @@ body {
            list-style:none;
            li {
              display:inline-block;
+             line-height:2em;
              a {
                text-decoration:none;
                color:$base-dark-font-color; 
@@ -133,11 +134,7 @@ body {
     padding:0;
     ul {
       li {
-        width:100%;
-        a {
-          display:inline-block;
-          width:100%;
-        }
+        display:inline;
       }
     }
   }
